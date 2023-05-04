@@ -2,6 +2,8 @@
     display: inline-block;
     vertical-align: top;
     text-align: none;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 h1 {
