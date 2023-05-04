@@ -1,6 +1,7 @@
 .inlineBlock {
     display: inline-block;
     vertical-align: top;
+    text-align: none;
 }
 
 h1 {
