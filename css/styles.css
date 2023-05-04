@@ -1,0 +1,83 @@
+.inlineBlock {
+    display: inline-block;
+    vertical-align: top;
+}
+
+h1 {
+    font-family:"Playfair Display", serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+h2 {
+    font-family:"Playfair Display", serif;
+    font-size: 38px;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: "Poppins", sans-serif;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+nav {
+    width: 72%;
+    padding: 1%;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.rosie {
+    border-radius: 7px;
+}
+
+.caseStudies {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.swatch {
+    height: 250px;
+    width: 360px;
+    border: none;
+    background-color: #EFDEDC;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.title {
+    padding: 15px;
+    color: #FDFCFC;
+    text-align: center;
+    border: none;
+    border-top: none;
+    background-color: #260401;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+footer {
+    background-color: #373738;
+    height: 100px;
+    padding: 1%;
+    color: white;
+}
