@@ -19,6 +19,14 @@ h3 {
     font-family: "Poppins", sans-serif;
 }
 
+h4 {
+    font-family: "Poppins", sans-serif;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+}
+
 .logo {
     width: 23%;
     padding: 1%;
@@ -80,4 +88,84 @@ footer {
     height: 100px;
     padding: 1%;
     color: white;
+}
+
+/* Start of HW 18 CSS */
+
+.flexContainer {
+    display: flex;
+}
+
+button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: #595845;
+    border: none;
+    border-radius: 130px;
+    color: white;
+}
+
+.skill {
+    width: 33%;
+}
+
+.number1 {
+    grid-area: item1;
+}
+
+.number2 {
+    grid-area: item2;
+}
+
+.number3 {
+    grid-area: item3;
+}
+
+.item {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.item img{
+    border-radius: 10px;
+    background-color: #EFDEDC;
+    padding: 10px;
+}
+
+.itemText {
+    width: 370px;
+}
+
+.myWork h3 {
+    text-align: center;
+    padding: 15px;
+}
+
+.myWork h1 {
+    text-align: center;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-areas: "item1 item2 item3";
+    justify-content: center;
+}
+
+@media only screen and (max-width:600){
+    .mySkills {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .myWork {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "item1"
+        "item2"
+        "item3"
+        ;
+    }
 }
