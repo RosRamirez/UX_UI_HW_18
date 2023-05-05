@@ -41,7 +41,7 @@ nav {
     padding: 1%;
 }
 
-ul {
+.inlineBlock ul {
     width: 50%;
     margin-left: auto;
 }
@@ -89,8 +89,14 @@ ul {
 footer {
     background-color: #373738;
     height: 100px;
-    padding: 1%;
+    padding: 5px;
     color: white;
+    width: 100%;
+}
+
+footer li {
+    display: inline-block;
+    margin: auto;
 }
 
 /* Start of HW 18 CSS */
@@ -112,6 +118,11 @@ button {
 
 .skill {
     width: 33%;
+}
+
+.skill img{
+    height: 200px;
+    width: 300px;
 }
 
 .number1 {
@@ -142,13 +153,17 @@ button {
     width: 370px;
 }
 
-.myWork h3 {
+.mySkills {
     text-align: center;
-    padding: 15px;
 }
 
 .myWork h1 {
     text-align: center;
+}
+
+.myWork h3 {
+    text-align: center;
+    padding: 15px;
 }
 
 .workGrid {
@@ -157,18 +172,32 @@ button {
     justify-content: center;
 }
 
-@media only screen and (max-width:600){
-    .mySkills {
+@media only screen and (max-width:600px){
+    .flexContainer {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
-    .myWork {
+
+    .mySkills {
+        margin: auto;
+    }
+
+    .skill {
+        margin: 0 auto;
+    }
+
+    .skill img {
+        margin: 0 auto;
+    }
+
+    .workGrid {
         grid-template-columns: 1fr;
         grid-template-areas:
         "item1"
         "item2"
         "item3"
         ;
+        grid-template-rows: 1fr 1fr 1fr;
     }
 }
